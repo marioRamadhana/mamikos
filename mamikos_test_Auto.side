@@ -1,0 +1,534 @@
+{
+  "id": "28bde47c-5a8e-43e4-9753-482ac8c6bf74",
+  "version": "2.0",
+  "name": "https://mamikos.com/cari",
+  "url": "https://mamikos.com/cari",
+  "tests": [{
+    "id": "e5b985a1-0d7c-4cd6-8f58-7091aaaa57bc",
+    "name": "Filter Test",
+    "commands": [{
+      "id": "e67974ac-f91e-4741-b527-2fa6347a37a9",
+      "comment": "",
+      "command": "open",
+      "target": "/cari",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aefe908-fb14-4d59-8b47-b5fdb5751df8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08b9b21c-6855-4481-a2db-6c66c4a2f49a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-chevron-down",
+      "targets": [
+        ["css=.fa-chevron-down", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[3]/div/div/div[2]/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "059e4944-2451-407d-b2ab-e8f8e3739ea8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\__BVID__32 > .custom-control:nth-child(1) > .custom-control-label",
+      "targets": [
+        ["css=#\\__BVID__32 > .custom-control:nth-child(1) > .custom-control-label", "css:finder"],
+        ["xpath=//div[@id='__BVID__32']/div/label", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'AC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7b53efa-d654-46ac-a31d-e8fd41ca8d26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(11) > .custom-control-label",
+      "targets": [
+        ["css=.custom-control:nth-child(11) > .custom-control-label", "css:finder"],
+        ["xpath=//div[@id='__BVID__32']/div[11]/label", "xpath:idRelative"],
+        ["xpath=//div[11]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Kamar Kosongan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00a92efc-228e-459c-9754-1668a193d1ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-chevron-up",
+      "targets": [
+        ["css=.fa-chevron-up", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[3]/div/div/div[2]/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d6b3a7-e605-4cbb-a4e9-702065e6d0e9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d66c1c7e-f6a6-4f3e-af73-6f5d10892756",
+    "name": "pesan kost",
+    "commands": [{
+      "id": "a918b5cd-e627-4c99-aa1e-28718e717fb4",
+      "comment": "",
+      "command": "open",
+      "target": "https://mamikos.com/cari",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4bc0c7b-2af3-4d66-b7a3-f4d6e2e12e7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "760f2f6d-a207-471b-8a94-a3b1fc43b92f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-padding-xs:nth-child(1) > .kost-list-container",
+      "targets": [
+        ["css=.no-padding-xs:nth-child(1) > .kost-list-container", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[3]/div/div[2]/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3341",
+      "windowTimeout": 2000
+    }, {
+      "id": "07ce284d-8470-4ef3-b939-cb67b168e2fc",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f9e7c24-8408-4c58-8c8d-be7f3ecac4cc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3341}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7050e4d6-d810-4f41-886a-1117202fd8e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca55d26a-b5a6-464f-93a6-74c56a3071a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-normalize:nth-child(1)",
+      "targets": [
+        ["css=.text-normalize:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='detailKostContainer']/div/div/div[4]/div/div[5]/button/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Lihat lebih lengkap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e18b54-7b41-48d9-be35-00eba6c65783",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1711)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf3aec02-0841-463d-bced-b210d1742672",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1803)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cd5eee1-0be1-463d-9822-92ad8b90c78b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .text-normalize",
+      "targets": [
+        ["css=.btn > .text-normalize", "css:finder"],
+        ["xpath=//div[@id='priceCard']/div/div[4]/div/button/h2", "xpath:idRelative"],
+        ["xpath=//button/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hubungi Kost')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d21896-de10-4388-a385-2603492aaa2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=modalChatPhone",
+      "targets": [
+        ["id=modalChatPhone", "id"],
+        ["css=#modalChatPhone", "css:finder"],
+        ["xpath=//input[@id='modalChatPhone']", "xpath:attributes"],
+        ["xpath=//div[@id='modalChat']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c3804f-3568-4cd6-afca-a7f3199bb485",
+      "comment": "",
+      "command": "type",
+      "target": "id=modalChatPhone",
+      "targets": [
+        ["id=modalChatPhone", "id"],
+        ["css=#modalChatPhone", "css:finder"],
+        ["xpath=//input[@id='modalChatPhone']", "xpath:attributes"],
+        ["xpath=//div[@id='modalChat']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "08992323394"
+    }, {
+      "id": "97993492-f414-4e8d-9c29-eb06e1fe0d09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(2) > .open",
+      "targets": [
+        ["css=.radio:nth-child(2) > .open", "css:finder"],
+        ["xpath=//div[@id='modalChat']/div/div/div[2]/form/div[4]/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Masih Ada Kamar ?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "046376bf-a3c0-48f8-8a70-01b3a7f67346",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-chat__question > .open > .icon",
+      "targets": [
+        ["css=.modal-chat__question > .open > .icon", "css:finder"],
+        ["xpath=//div[@id='modalChat']/div/div/div[2]/form/div[5]/label/span", "xpath:idRelative"],
+        ["xpath=//form/div[5]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "873b630c-a758-47bf-bc28-2943908c98a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.track-message-kost-submit",
+      "targets": [
+        ["css=.track-message-kost-submit", "css:finder"],
+        ["xpath=//div[@id='modalChat']/div/div/div[2]/form/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim Pesan ke Kost')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d55d7d8-182f-4125-b1cd-e49001dd822e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2150)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6fe429d-c04c-491f-bfdf-5d56c985d238",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc2aa80c-373a-4001-ab72-ca0b01b05bb8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2956e158-2ce2-4ac1-a07b-cb87e0358a52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a43fb264-b2ae-4738-a73c-24999f5c70e7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c5bfb03c-a234-4529-9afd-0170e21e4730",
+    "name": "Login_Sebagai_Pemilik",
+    "commands": [{
+      "id": "4200e001-46a4-4107-8425-804ff54aebd8",
+      "comment": "",
+      "command": "open",
+      "target": "https://mamikos.com/cari",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0452ab44-7c8f-43e2-b6b7-7cf7fba88192",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806bdada-9f25-43c7-8298-c0a27b5211d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.username-text",
+      "targets": [
+        ["css=.username-text", "css:finder"],
+        ["xpath=//button[@id='__BVID__14__BV_toggle_']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b635b73-6799-4ac9-b78e-8dee10a442b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sebagai Pemilik",
+      "targets": [
+        ["linkText=Sebagai Pemilik", "linkText"],
+        ["css=.\\--last-child > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Sebagai Pemilik')]", "xpath:link"],
+        ["xpath=//div[@id='__BVID__14']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//li[8]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sebagai Pemilik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbde1dc5-9d49-4f6d-961f-87dc8658157f",
+      "comment": "",
+      "command": "click",
+      "target": "id=insertPhoneNumber",
+      "targets": [
+        ["id=insertPhoneNumber", "id"],
+        ["name=inputLog", "name"],
+        ["css=#insertPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='insertPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57ae0b4f-4777-4bbd-8423-b0dcf3d5b8cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=insertPhoneNumber",
+      "targets": [
+        ["id=insertPhoneNumber", "id"],
+        ["name=inputLog", "name"],
+        ["css=#insertPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='insertPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "089992286636"
+    }, {
+      "id": "59ef4155-2034-4cf0-a2c6-31433ae82f41",
+      "comment": "",
+      "command": "type",
+      "target": "id=insertPassword",
+      "targets": [
+        ["id=insertPassword", "id"],
+        ["css=#insertPassword", "css:finder"],
+        ["xpath=//input[@id='insertPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "qwerty"
+    }, {
+      "id": "9b538136-06d7-4a40-bc99-3b9da54274b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "563d23d7-60e1-4c33-9950-7aad8aca19fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b15d44-1e7f-4751-a456-5f2335f7b385",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(1)",
+      "targets": [
+        ["css=span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab31e4a-2989-484a-8ddc-a1c552273cd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal2-confirm",
+      "targets": [
+        ["css=.swal2-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[10]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login kembali')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10eef487-0f8d-436b-8091-085694ba20d9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5a122a8c-d464-410d-90c2-0ccfb2867bb1",
+    "name": "LupaPassword_Sebagai Pemilik",
+    "commands": [{
+      "id": "6a6d214f-e509-40b9-b0ba-e134a4aa89d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://mamikos.com/cari",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "421482c6-20f9-4399-bc86-153cd2ebbde2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "615937da-75e8-44df-bfc5-fe450b2f5791",
+      "comment": "",
+      "command": "click",
+      "target": "css=.username-text",
+      "targets": [
+        ["css=.username-text", "css:finder"],
+        ["xpath=//button[@id='__BVID__14__BV_toggle_']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b660415-c807-4851-92f8-ddc5184ae423",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sebagai Pemilik",
+      "targets": [
+        ["linkText=Sebagai Pemilik", "linkText"],
+        ["css=.\\--last-child > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Sebagai Pemilik')]", "xpath:link"],
+        ["xpath=//div[@id='__BVID__14']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//li[8]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sebagai Pemilik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8018d3fc-e037-4e57-88f9-acbc1deeebdc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lupa password?",
+      "targets": [
+        ["linkText=Lupa password?", "linkText"],
+        ["css=.forget-password", "css:finder"],
+        ["xpath=//a[contains(text(),'Lupa password?')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lupa password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00a9a55-3bfd-44fb-9cd4-2cd86cb41d43",
+      "comment": "",
+      "command": "type",
+      "target": "id=insertPhoneNumber",
+      "targets": [
+        ["id=insertPhoneNumber", "id"],
+        ["name=inputLog", "name"],
+        ["css=#insertPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='insertPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "08992286636"
+    }, {
+      "id": "54ed28b7-3442-4dbd-b033-c86e0149cb4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'KIRIM SMS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "284b2dab-9dce-49a2-9a5b-d7cd177f7c42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal2-confirm",
+      "targets": [
+        ["css=.swal2-confirm", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[10]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "329ce65f-db1e-4647-9831-8008da216003",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swal2-confirm",
+      "targets": [
+        ["css=.swal2-confirm", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[10]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dffbdaee-4733-4b92-8331-cd7a195ab8da",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bf3ee1bd-2117-4ae8-b92d-dd32087577cd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e5b985a1-0d7c-4cd6-8f58-7091aaaa57bc"]
+  }],
+  "urls": ["https://mamikos.com/", "https://mamikos.com/cari"],
+  "plugins": []
+}
